@@ -20,7 +20,7 @@ void Game::run() {
         render();
     }
 }
-//
+
 void Game::processEvents() {
     while (std::optional<sf::Event> event = window.pollEvent()) {
         if (event->is<sf::Event::Closed>()) {
