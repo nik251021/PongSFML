@@ -12,13 +12,20 @@ void paddle::Move(bool dir, float str) {
         pd.setPosition({pd.getPosition().x, pd.getPosition().y + str});
     }
 }
+void paddle::SetPos(const sf::Vector2f& pos){
+    pd.setPosition({pos});
+}
+
+sf::FloatRect paddle::getBounds() const {
+    return pd.getGlobalBounds();
+}
 
 sf::Vector2f paddle::GetPos() {
     return pd.getPosition();
 }
 
 void paddle::update(float dt) {
-
+    
 }
 
 void paddle::draw(sf::RenderWindow& window) {

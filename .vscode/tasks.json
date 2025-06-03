@@ -8,16 +8,17 @@
       "args": [
         "-std=c++17",
         "-g",
-        "D:/projects/CLangProjects/TestSFML/src/main.cpp",
-        "D:/projects/CLangProjects/TestSFML/src/game.cpp",
-        "D:/projects/CLangProjects/TestSFML/src/Paddle.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/main.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/game.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/Paddle.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/Ball.cpp",
         "-IC:/SFML-3.0.0/include",
         "-LC:/SFML-3.0.0/lib",
         "-lsfml-graphics",
         "-lsfml-window",
         "-lsfml-system",
         "-o",
-        "D:/projects/CLangProjects/TestSFML/build/main.exe"
+        "D:/projects/CLangProjects/PongSFML/build/main.exe"
       ],
       "group": {
         "kind": "build",

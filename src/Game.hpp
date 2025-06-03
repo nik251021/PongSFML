@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "Paddle.hpp"
+#include "Ball.hpp"
 
 #include <iostream>
 
@@ -18,4 +19,5 @@ private:
     sf::Clock clock;
     paddle paddle1;
     paddle paddle2;
+    Ball ball;
 };
