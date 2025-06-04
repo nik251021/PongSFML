@@ -8,9 +8,10 @@
       "args": [
         "-std=c++17",
         "-g",
-        "D:/projects/CLangProjects/paintSFML/src/main.cpp",
-        "D:/projects/CLangProjects/paintSFML/src/game.cpp",
-        "D:/projects/CLangProjects/paintSFML/src/paint.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/main.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/game.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/Paddle.cpp",
+        "D:/projects/CLangProjects/PongSFML/src/Ball.cpp",
         "-IC:/SFML-3.0.0/include",
         "-LC:/SFML-3.0.0/lib",
         "-DSFML_STATIC",
@@ -23,7 +24,7 @@
         "-lwinmm",
         "-lgdi32",
         "-o",
-        "D:/projects/CLangProjects/paintSFML/build/main.exe"
+        "D:/projects/CLangProjects/PongSFML/build/main.exe"
       ],
       "group": {
         "kind": "build",
